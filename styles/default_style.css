@@ -1,0 +1,34 @@
+/* Стилі контейнера */
+.wrapper {
+  padding: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 200px;
+  font-weight: 500;
+  font-size: 1.5em;
+}
+/* Загальні стилі елементів */
+.task {
+  border: 5px dashed rgb(132, 24, 226);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  padding: 25px;
+  border-radius: 10px;
+}
+.task_1 {
+  height: 600px;
+  width: 600px;
+}
+.task_2 {
+  height: 800px;
+  width: 600px;
+}
+
+.task_3 {
+  height: 600px;
+  width: 400px;
+}
